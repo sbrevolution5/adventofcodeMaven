@@ -3,6 +3,7 @@ package sb.adventofcode;
 import sb.adventofcode.seventeen.days.*;
 import sb.adventofcode.twentyFour.Day1LocationFinder;
 import sb.adventofcode.twentyFour.Day2ReportSafetySystem;
+import sb.adventofcode.twentyFour.Day3FileDecorruptor;
 import sb.adventofcode.twentythree.Days.*;
 import sb.adventofcode.twentythree.Inputs;
 
