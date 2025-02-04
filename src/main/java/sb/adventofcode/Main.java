@@ -52,6 +52,7 @@ public class Main {
         d1.FindSimilarityScore();
         var d2 = new Day2ReportSafetySystem();
         d2.HowManyAreSafe();
+        var d3 = new Day3FileDecorruptor();
 
     }
 }
