@@ -1,11 +1,10 @@
 package sb.adventofcode;
 
-import sb.adventofcode.seventeen.days.*;
 import sb.adventofcode.twentyFour.Day1LocationFinder;
 import sb.adventofcode.twentyFour.Day2ReportSafetySystem;
 import sb.adventofcode.twentyFour.Day3FileDecorruptor;
-import sb.adventofcode.twentythree.Days.*;
-import sb.adventofcode.twentythree.Inputs;
+
+import static sb.adventofcode.twentyFour.Inputs24.Day3Input;
 
 public class Main {
 
@@ -54,7 +53,7 @@ public class Main {
         var d2 = new Day2ReportSafetySystem();
         d2.HowManyAreSafe();
         var d3 = new Day3FileDecorruptor();
-        d3.JustMultiply();
+        d3.MultiplyDos();
 
     }
 }
