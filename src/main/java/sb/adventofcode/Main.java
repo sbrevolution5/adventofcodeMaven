@@ -54,6 +54,7 @@ public class Main {
         var d2 = new Day2ReportSafetySystem();
         d2.HowManyAreSafe();
         var d3 = new Day3FileDecorruptor();
+        d3.JustMultiply();
 
     }
 }
