@@ -57,7 +57,8 @@ public class Main {
         var d3 = new Day3FileDecorruptor();
         d3.MultiplyDos();
         var d4 = new Day4WordSearcher();
-        System.out.printf("there are %s occurances in word search",d4.HowManyWords(Day4Input));
+        System.out.printf("there are %s occurances in word search\n",d4.HowManyWords(Day4Input));
+        System.out.printf("there are %s occurances of X's in word search\n",d4.HowManyXWords(Day4Input));
 
     }
 }
