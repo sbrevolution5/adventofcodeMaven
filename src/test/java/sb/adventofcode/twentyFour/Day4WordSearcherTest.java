@@ -15,6 +15,6 @@ class Day4WordSearcherTest {
         //act
         var res = d4.HowManyWords(testData);
         //assert
-        assertEquals(0,res);
+        assertEquals(18,res);
     }
 }
