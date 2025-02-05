@@ -6,6 +6,7 @@ import sb.adventofcode.twentyFour.Day3FileDecorruptor;
 import sb.adventofcode.twentyFour.Day4WordSearcher;
 
 import static sb.adventofcode.twentyFour.Inputs24.Day3Input;
+import static sb.adventofcode.twentyFour.Inputs24.Day4Input;
 
 public class Main {
 
@@ -56,6 +57,7 @@ public class Main {
         var d3 = new Day3FileDecorruptor();
         d3.MultiplyDos();
         var d4 = new Day4WordSearcher();
+        System.out.printf("there are %s occurances in word search",d4.HowManyWords(Day4Input));
 
     }
 }

@@ -17,4 +17,15 @@ class Day4WordSearcherTest {
         //assert
         assertEquals(18,res);
     }
+
+    @Test
+    void howManyXWords() {
+        //arrange
+        String testData = Day4Sample;
+        var d4 = new Day4WordSearcher();
+        //act
+        var res = d4.HowManyXWords(testData);
+        //assert
+        assertEquals(9,res);
+    }
 }
