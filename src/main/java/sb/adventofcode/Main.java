@@ -3,6 +3,7 @@ package sb.adventofcode;
 import sb.adventofcode.twentyFour.Day1LocationFinder;
 import sb.adventofcode.twentyFour.Day2ReportSafetySystem;
 import sb.adventofcode.twentyFour.Day3FileDecorruptor;
+import sb.adventofcode.twentyFour.Day4WordSearcher;
 
 import static sb.adventofcode.twentyFour.Inputs24.Day3Input;
 
@@ -54,6 +55,7 @@ public class Main {
         d2.HowManyAreSafe();
         var d3 = new Day3FileDecorruptor();
         d3.MultiplyDos();
+        var d4 = new Day4WordSearcher();
 
     }
 }
